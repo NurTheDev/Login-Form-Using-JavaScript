@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Log in</h1>
+      <p>New Here? <a href="#">Create a account...</a></p>
+
+      <form>
+        <label for="username">Username or Email</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username or Email"
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+
+        <div>
+          <input type="checkbox" id="keep-logged-in" name="keep-logged-in" />
+          <label for="keep-logged-in">Keep me logged in.</label>
+        </div>
+
+        <button type="submit">Log in</button>
+      </form>
+
+      <div class="helper-links">
+        <a href="#">Forget username?</a>
+        <a href="#">Forget password?</a>
+        <a href="#">Can’t login?</a>
+      </div>
+    </div>
+  </body>
+</html>
